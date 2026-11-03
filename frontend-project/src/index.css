@@ -6,3 +6,66 @@
 html {
     zoom: 0.9;
 }
+
+.category-scroll {
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #aab5c5 #e2e8f0;
+    scrollbar-gutter: stable;
+}
+
+.category-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.category-scroll::-webkit-scrollbar-track {
+    background: #dbe3ee;
+    border-radius: 9999px;
+}
+
+.category-scroll::-webkit-scrollbar-thumb {
+    background-color: #9ca9bc;
+    border-radius: 9999px;
+    border: 2px solid #dbe3ee;
+}
+
+.category-scroll-shell {
+    position: relative;
+}
+
+.category-scroll-shell::before,
+.category-scroll-shell::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.category-scroll-shell::before {
+    left: -2px;
+    border-right: 5px solid #bdc8d8;
+}
+
+.category-scroll-shell::after {
+    right: -2px;
+    border-left: 5px solid #bdc8d8;
+}
+
+@media only screen and (max-width: 500px) {
+    .category-scroll {
+        gap: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .category-scroll button {
+        padding-inline: 0.75rem;
+        font-size: 0.75rem;
+    }
+}

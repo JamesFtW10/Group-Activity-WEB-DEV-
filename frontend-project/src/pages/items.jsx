@@ -34,8 +34,8 @@ function Items() {
       {/* Filters & Sort Bar */}
       <div className="bg-white border-b sticky top-[72px] z-40">
         <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center mb-4">
-            <div className="flex items-center gap-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center mb-4">
+            <div className="flex items-center justify-between sm:justify-start gap-4">
               <div className="flex items-center gap-2">
                 <SlidersHorizontal className="w-4 h-4 text-gray-600" />
                 <span className="text-sm font-medium text-gray-700">Categories:</span>
@@ -46,7 +46,7 @@ function Items() {
               aria-label="Sort products by price"
               value={sortOrder}
               onChange={(event) => setSortOrder(event.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-700 font-medium hover:bg-gray-50 transition-colors cursor-pointer"
+              className="w-full sm:w-auto px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-700 font-medium hover:bg-gray-50 transition-colors cursor-pointer"
             >
               <option value="low-to-high">Price: Low to High</option>
               <option value="high-to-low">Price: High to Low</option>
@@ -54,20 +54,22 @@ function Items() {
           </div>
 
           {/* Category Filter Buttons */}
-          <div className="flex flex-wrap gap-2">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`cursor-pointer px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                  selectedCategory === category
-                    ? "bg-black text-white shadow-md"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                {category}
-              </button>
-            ))}
+          <div className="category-scroll-shell">
+            <div className="category-scroll -mx-6 px-6 flex flex-nowrap gap-4 sm:gap-6 overflow-x-auto pb-1 snap-x snap-mandatory">
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => setSelectedCategory(category)}
+                  className={`snap-start shrink-0 cursor-pointer px-1 py-2 border-b-2 text-sm font-semibold transition-all duration-200 ${
+                    selectedCategory === category
+                      ? "text-black border-black"
+                      : "text-gray-500 border-transparent hover:text-gray-800"
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
