@@ -1,6 +1,6 @@
-import Footer from "../partial/Client/Footer.jsx"
+import Footer from "../partial/Client/footer.jsx"
 import { Outlet } from "react-router-dom"
-import Header from "../partial/Client/Header.jsx"
+import Header from "../partial/Client/header.jsx"
 
 function ClientLayout() {
     return (
