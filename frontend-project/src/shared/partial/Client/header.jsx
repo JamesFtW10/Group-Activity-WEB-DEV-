@@ -1,4 +1,4 @@
-import KevsShoesLogo from "../../../assets/ItemsImages/kevs-logo-merged.svg";
+import KevsShoesLogo from "../../../assets/ItemsImages/kevs-logo-merged.png";
 import { Heart, ShoppingCart, UserRound, Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function Header() {
                 <div className="flex h-10 items-center justify-between">
                     {/* Logo */}
                     <NavLink to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                        <img className="h-30 w-30" src={KevsShoesLogo} alt="Kev's Shoes" />
+                        <img className="h-16 w-30" src={KevsShoesLogo} alt="Kev's Shoes" />
              
                     </NavLink>
 

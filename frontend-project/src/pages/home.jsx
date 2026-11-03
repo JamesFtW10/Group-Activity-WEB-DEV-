@@ -67,7 +67,7 @@ function Home() {
             </div>
             
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-3xl"></div>
+              <div className="absolute inset-0 bg-black-to-r from-black-500/20 to-purple-500/20 blur-3xl"></div>
               <Carousel items={itemCatalog.slice(0, 5)} />
             </div>
           </div>
