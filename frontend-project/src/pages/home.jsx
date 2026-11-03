@@ -35,7 +35,7 @@ function Home() {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black"></div>
         </div>
         
