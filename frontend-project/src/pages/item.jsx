@@ -131,11 +131,11 @@ function Item() {
 
               {/* Action Buttons */}
               <div className="flex gap-4 mb-8">
-                <button className="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition-all shadow-lg hover:shadow-xl">
+                <button className="cursor-pointer flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition-all shadow-lg hover:shadow-xl">
                   <ShoppingCart className="w-5 h-5" />
                   Add to Cart
                 </button>
-                <button className="flex items-center justify-center w-14 h-14 border-2 border-gray-300 rounded-lg hover:border-red-500 hover:bg-red-50 transition-all">
+                <button className="cursor-pointer flex items-center justify-center w-14 h-14 border-2 border-gray-300 rounded-lg hover:border-red-500 hover:bg-red-50 transition-all">
                   <Heart className="w-6 h-6 text-gray-600 hover:text-red-500" />
                 </button>
               </div>

@@ -52,9 +52,9 @@ function Forms() {
       )}
 
       <div className="bg-[#f5f5f5] p-6 max-[500px]:p-3.5">
-        <div className="mx-auto w-full max-w-2xl">
+        <div className="mt-8 mx-auto w-full max-w-2xl">
           <div className="mb-6">
-            <h1 className="text-2xl font-bold text-[#111111]">Contact Us</h1>
+            <h1 className=" text-2xl font-bold text-[#111111]">Contact Us</h1>
             <p className="mt-1 text-[#4a4a4a] leading-relaxed">
               Fill out the form below and we&apos;ll get back to you shortly.
             </p>
