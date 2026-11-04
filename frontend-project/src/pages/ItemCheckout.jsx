@@ -96,7 +96,7 @@ function ItemCheckout() {
                             <div className="mt-4 rounded-2xl border border-[var(--line)] bg-[var(--panel-alt)] p-4 text-sm text-[var(--muted)]">Payment details will be arranged when your order is confirmed.</div>
                         </div>
                         <div className="mt-8 flex flex-wrap gap-3">
-                            <button type="submit" className="rounded-full bg-[var(--primary-strong)] px-7 py-3 text-sm font-bold text-white shadow-sm transition cursor-pointer hover:opacity-90">Place order · {formatPeso(total)}</button>
+                            <button type="submit" className="rounded-full bg-[var(--primary-strong)] px-7 py-3 text-sm font-bold text-white shadow-sm transition cursor-pointer  hover:opacity-90">Place order · {formatPeso(total)}</button>
                             <Link to={`/item/${product.id}`} className="rounded-full border border-[var(--line)] bg-[var(--panel)] px-6 py-3 text-sm font-semibold transition hover:border-[var(--primary-strong)] hover:text-[var(--primary-strong)]">Continue shopping</Link>
                         </div>
                     </form>

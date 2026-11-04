@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import ClientLayout from './shared/layout/ClientLayout';
-import Home from './pages/home';
-import Items from './pages/items';
-import Forms from './pages/forms';
-import Item from './pages/item';
-import NotFound from './pages/notFound';
-import ItemCheckout from './pages/itemCheckout';
+import Home from './pages/Home';
+import Items from './pages/Items';
+import Forms from './pages/Forms';
+import Item from './pages/Item';
+import NotFound from './pages/NotFound';
+import ItemCheckout from './pages/ItemCheckout';
 
 function App() {
   return (
