@@ -68,7 +68,7 @@ function Home() {
             
             <div className="relative">
               <div className="absolute inset-0 bg-black-to-r from-black-500/20 to-purple-500/20 blur-3xl"></div>
-              <Carousel items={itemCatalog.slice(0, 5)} />
+              <Carousel items={itemCatalog.slice(0, 6)} />
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 bg-white border-b">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {TreeFeature.map((feature, index) => (

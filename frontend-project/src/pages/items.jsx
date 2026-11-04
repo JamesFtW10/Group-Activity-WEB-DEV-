@@ -22,17 +22,17 @@ function Items() {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="mt-20 min-h-screen bg-gray-50">
       {/* Page Header */}
-      <div className="bg-white border-b">
-        <div className="mt-6 max-w-7xl mx-auto px-6 py-8">
+      <div className="mt-20 bg-white">
+        <div className="mt-15 max-w-7xl mx-auto px-6 py-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">All Products</h1>
           <p className="text-gray-600">Discover our complete collection of premium footwear</p>
         </div>
       </div>
 
       {/* Filters & Sort Bar */}
-      <div className="bg-white border-b sticky top-[72px] z-40">
+      <div className="bg-white border-b border-gray-200 sticky top-[72px] z-40">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center mb-4">
             <div className="flex items-center justify-between sm:justify-start gap-4">

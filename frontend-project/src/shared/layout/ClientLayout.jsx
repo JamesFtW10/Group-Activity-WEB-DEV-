@@ -4,9 +4,9 @@ import Header from "../partial/Client/header.jsx"
 
 function ClientLayout() {
     return (
-        <div className="min-h-screen bg-black">
+        <div className="min-h-screen bg-[var(--canvas)]">
             <Header />
-            <main className="min-h-[calc(100vh-200px)] px-1 py-12">
+            <main className="min-h-[calc(100vh-200px)]">
                 <Outlet />
             </main>
             <Footer />
