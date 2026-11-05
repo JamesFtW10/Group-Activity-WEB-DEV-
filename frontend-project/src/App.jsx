@@ -19,7 +19,7 @@ function App() {
         <Route path="forms" element={<Forms />} />
       </Route>
 
-
+    {/*  Catch-all route for 404 Not Found */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
