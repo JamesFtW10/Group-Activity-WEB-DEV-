@@ -1,4 +1,4 @@
-import KevsShoesLogo from "../../../assets/ItemsImages/kevs-logo-merged.png";
+import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.svg";
 import { Heart, ShoppingCart, UserRound, Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
@@ -37,7 +37,7 @@ function Header() {
                             Products
                         </NavLink>
                         <NavLink 
-                            to="/forms"
+                            to="/contact"
                             className={({ isActive }) => 
                                 `text-sm font-medium hover:text-gray-300 transition-colors ${
                                     isActive ? 'text-white border-b-2 border-white pb-1' : 'text-gray-400'
@@ -82,7 +82,7 @@ function Header() {
                         Products
                     </NavLink>
                     <NavLink 
-                        to="/forms"
+                        to="/contact"
                         className={({ isActive }) => 
                             `text-sm font-medium ${isActive ? 'text-white' : 'text-gray-400'}`
                         }

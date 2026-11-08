@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { User, Mail, Phone, MapPin, Footprints, MessageSquare, Send, CircleCheck } from "lucide-react";
-
-function Forms() {
+function ContactFormSection() {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -51,8 +50,9 @@ function Forms() {
         </div>
       )}
 
-      <div className="bg-[#f5f5f5] p-6 max-[500px]:p-3.5">
-        <div className="mt-20  mx-auto w-full max-w-2xl">
+      <section aria-labelledby="contact-title">
+        <div className="bg-[#f5f5f5] p-6 max-[500px]:p-3.5">
+          <div className="mt-20  mx-auto w-full max-w-2xl">
           <div className="mb-6">
             <h1 className=" text-2xl font-bold text-[#111111]">Contact Us</h1>
             <p className="mt-1 text-[#4a4a4a] leading-relaxed">
@@ -178,10 +178,12 @@ function Forms() {
               </button>
             </div>
           </form>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
 
-export default Forms;
+export default ContactFormSection;
+

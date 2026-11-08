@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import KevsShoes from "../../../assets/ItemsImages/KevsLogo.png"
+import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.svg";
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
           {/* Brand Section */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img className="h-8 w-8 object-contain" src={KevsShoes} alt="Kev's Shoes" />
+              <img className="h-8 w-8 object-contain" src={KevsShoesLogo} alt="Kev's Shoes" />
               <span className="text-white text-lg font-bold">Kev's Shoes</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
