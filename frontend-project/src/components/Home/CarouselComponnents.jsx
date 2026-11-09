@@ -43,7 +43,7 @@ function Carousel({ items = [] }) {
               aria-label={`Go to slide ${index + 1}`}
               onClick={() => setActiveIndex(index)}
               className={`h-2.5 rounded-full transition-all duration-300 ${
-                index === activeIndex ? 'w-8 bg-[#6adf9b]' : 'w-2.5 bg-[#6a6a6a]'
+                index === activeIndex ? 'w-8 bg-white' : 'w-2.5 bg-[#6a6a6a]'
               }`}
             />
           ))}

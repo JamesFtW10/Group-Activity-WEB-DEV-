@@ -1,4 +1,4 @@
-import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.svg";
+import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.png";
 import { Heart, ShoppingCart, UserRound, Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
 

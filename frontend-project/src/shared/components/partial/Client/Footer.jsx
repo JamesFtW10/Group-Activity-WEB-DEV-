@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.svg";
+import KevsShoesLogo from "../../../../assets/ItemsImages/kevs-logo-merged.png";
 
 function Footer() {
   return (
@@ -32,7 +32,7 @@ function Footer() {
           <div>
             <h6 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Customer Service</h6>
             <ul className="space-y-2">
-              <li><Link to="/forms" className="text-sm hover:text-white transition-colors">Contact Us</Link></li>
+              <li><Link to="/contact" className="text-sm hover:text-white transition-colors">Contact Us</Link></li>
               <li><a href="#" className="text-sm hover:text-white transition-colors">Shipping Info</a></li>
               <li><a href="#" className="text-sm hover:text-white transition-colors">Returns</a></li>
               <li><a href="#" className="text-sm hover:text-white transition-colors">FAQ</a></li>

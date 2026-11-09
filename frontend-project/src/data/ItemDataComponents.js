@@ -45,19 +45,20 @@ import SlippersVictori from "../assets/ItemsImages/Slippers/Victori.png";
 
 /* ===== Sneakers ===== */
 import SneakersConverseChuck from "../assets/ItemsImages/Sneakers/Converse-Chuck.png";
+import NikeAirMax90 from "../assets/ItemsImages/Sneakers/NikeAirMax90.avif";
+import NikeAirMax95 from "../assets/ItemsImages/Sneakers/NikeAirMax95.avif";
+import NikeDunkLow from "../assets/ItemsImages/Sneakers/NikeDunkLow.avif";
+import NikeDunkLowRetro from "../assets/ItemsImages/Sneakers/NikeDunkLowRetro.avif";
+import NikeMoonShoe from "../assets/ItemsImages/Sneakers/NikeMoonShoe.avif";
+import NikePegasusPlus from "../assets/ItemsImages/Sneakers/NikePegasusPlus.avif";
+import TennisClassic from "../assets/ItemsImages/Sneakers/TennisClassic.avif";
 
 /* ===== Socks ===== */
 import SocksCrew from "../assets/ItemsImages/Socks/CrewSocks.png";
 import SocksWhiteCrew from "../assets/ItemsImages/Socks/White-Crew-Socks.png";
 
-/* ===== Nasa root ng ItemsImages (sneakers) ===== */
-import NikeAirMax90 from "../assets/ItemsImages/NikeAirMax90.avif";
-import NikeAirMax95 from "../assets/ItemsImages/NikeAirMax95.avif";
-import NikeDunkLow from "../assets/ItemsImages/NikeDunkLow.avif";
-import NikeDunkLowRetro from "../assets/ItemsImages/NikeDunkLowRetro.avif";
-import NikeMoonShoe from "../assets/ItemsImages/NikeMoonShoe.avif";
-import NikePegasusPlus from "../assets/ItemsImages/NikePegasusPlus.avif";
-import TennisClassic from "../assets/ItemsImages/TennisClassic.avif";
+
+
 
 
 // ============================================================
